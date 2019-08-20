@@ -273,9 +273,7 @@ def clickhandler(x, y):
     This function is called by turtle in response
     to a user click. The parameters are the screen
     coordinates indicating where the click happened.
-    The function will call other functions. You do not
-    need to modify this function, but you do need
-    to understand it.
+    The function will call other functions.
     """
     if do_user_move(the_board,x,y):
         draw_board(the_board)
@@ -287,8 +285,7 @@ def clickhandler(x, y):
 def main():
     """
     signature: () -> NoneType
-    Runs the tic-tac-toe game. You shouldn't
-    need to modify this function.
+    Runs the tic-tac-toe game.
     """
     turtle.tracer(0,0)
     turtle.hideturtle()
